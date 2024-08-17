@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.hidden {
+    display: none;
+}
+
+
+
+.logo img {
+    width: 200px;
+    height: 120px;
+}
+
+.search-container input[type="text"] {
+    width: 700px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #ff4c4c;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search-container button:hover {
+    background-color: #ff3333;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin: 0 auto;
+    background-color:white; 
+
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.ul_div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.gps, .shahar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+i {
+    color: #ff4c4c;
+}
+.menu {
+    text-align: center;
+}
+
+.bug {
+    width: 65px;
+    height: 60px;
+}
+.btn-fx {
+  
+    display: flex;
+    width: 250px;
+    font-size: 22px;
+    border:  whitesmoke;
+}
+.fx {
+    width: 280px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.krish-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+.kataloglar {
+ 
+    width: 270px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+
+.btn-fx :hover{
+    color: gray;
+    background-color: white ;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3); 
+}
+.k-text {
+   padding-top: 15px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.kat {
+    height: 66px;
+    color: white;
+    background-color: red;
+    display: flex;
+}
+.kat img {
+    height: 30px;
+}
+
+.krish-btn:hover {
+    border: none;
+    background-color: #ff4c4c ;
+    color: white;
+}
+.red {
+    color: red;
+}
+
+.content {
+    margin-top: 70px; 
+    padding: 20px;
+}
+.egg {
+    display: flex;
+    
+}
+footer {
+
+
+    display: flex;
+    justify-content: space-between;
+}
+.h4-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.ft {
+    width:  80%;
+    margin: 0 auto;
+   display: flex;
+    justify-content: space-between;
+}
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: flex-start; 
+    gap: 20px; 
+  }
+  
+ 
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+    transition: transform 0.2s;
+  }
+  
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+
+  .card-img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+  }
+  
+
+  .card-content {
+    padding: 10px;
+  }
+  
+
+  .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+
+  .card-price {
+    font-size: 16px;
+    color: #ff5722;
+    font-weight: bold;
+  }
+  
+  
+  @media (max-width: 768px) {
+    .row {
+      justify-content: center;
+    }
+  
+    .card {
+      width: 150px;
+    }
+  }
+  

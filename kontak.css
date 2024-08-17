@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+.hidden {
+    display: none;
+}
+
+
+
+.logo img {
+    width: 200px;
+    height: 120px;
+}
+
+.search-container input[type="text"] {
+    width: 700px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    font-size: 14px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #ff4c4c;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.search-container button:hover {
+    background-color: #ff3333;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 80%;
+    margin: 0 auto;
+    background-color:white; 
+
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.ul_div {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+.gps, .shahar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+i {
+    color: #ff4c4c;
+}
+.qr {
+    width: 100px;
+    height: 100px;
+}
+header {
+    padding-top: 180px;
+}
+.img-fx {
+    
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.img-fx img {
+    border-radius: 13px;
+}
+.h1 {
+    font-size: 42px;
+}
+
+.imd-div {
+    color: white;
+    border-radius: 13px;
+    width: 350px;
+    background-color:rgb(98, 131, 137);
+    text-align: justify;
+}
+.w {
+    padding-top: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+.qr {
+    border-radius: 10px;
+}
+
+.krish-btn {
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+
+.krish-btn:hover {
+    border: none;
+    background-color: #ff4c4c ;
+    color: white;
+}
+.red {
+    color: red;
+}
+
+.content {
+    margin-top: 70px; 
+    padding: 20px;
+}
+
+footer {
+    width:  80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.h4-text {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.tup {
+    margin-top: 100px;
+}
+
+.tel  {
+    margin-top: 50px;
+}
+
+.ft {
+    width:  80%;
+    margin: 0 auto;
+   display: flex;
+    justify-content: space-between;
+}
